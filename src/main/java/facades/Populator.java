@@ -23,6 +23,7 @@ public class Populator {
         fe.create(new CocktailDTO(new Cocktail("Vodka", "Schweppers", "Limejuice")));
         fe.create(new CocktailDTO(new Cocktail("Whiskey", "Vermouth", "Bitter")));
     }
+
     
     public static void main(String[] args) {
         populate();
